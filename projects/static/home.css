@@ -1,0 +1,91 @@
+    /* Paleta de colores */
+    .color1 { color: #0c4185; }
+    .color2 { color: #a81f17; }
+    .color3 { color: #a81f17; }
+    .color4 { color: #87b4d8; }
+    .color5 { color: #0c4185; }
+
+    body {
+      background-color: #f8f9fa;
+    }
+    header {
+      background-color: #0c4185; /* color1 */
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    .container-xl {
+      margin-top: 2rem;
+      max-width: 95%;
+    }
+    .card-title {
+      color: #a81f17; /* color2 */
+      font-weight: bold;
+    }
+    table.dataTable th {
+      background-color: #a81f17 !important; /* color3 */
+      color: white;
+      text-align: center;
+    }
+    table.dataTable td {
+      white-space: normal !important;
+      word-wrap: break-word;
+      vertical-align: top;
+    }
+    table.dataTable tbody tr:hover {
+      background-color: #ffe7c7 !important; /* suave de color4 */
+    }
+    /* Ajustar anchos */
+    th:nth-child(1), td:nth-child(1) { width: 50px; }   
+    th:nth-child(2), td:nth-child(2) { width: 90px; }   
+    th:nth-child(3), td:nth-child(3) { width: 70px; }   
+    th:nth-child(4), td:nth-child(4) { width: 150px; }  
+    th:nth-child(5), td:nth-child(5) { width: 200px; }  
+    th:nth-child(6), td:nth-child(6) { width: 120px; }  
+    th:nth-child(7), td:nth-child(7) { width: 350px; }  
+    th:nth-child(8), td:nth-child(8) { width: 200px; }  
+    th:nth-child(9), td:nth-child(9) { width: 100px; }  
+    th:nth-child(10), td:nth-child(10) { width: 180px; } 
+    th:nth-child(11), td:nth-child(11) { width: 200px; text-align: center; }
+
+    /* Botones personalizados */
+    .btn-ver {
+      background-color: #87b4d8; /* color4 */
+      color: white;
+    }
+    .btn-ver:hover {
+      background-color: #a7d0f1;
+      color: white;
+    }
+    .btn-modificar {
+      background-color: #0c4185; /* color5 */
+      color: #0c4185;
+    }
+    .btn-modificar:hover {
+      background-color: #186fe0;
+      color: white;
+    }
+    .btn-eliminar {
+      background-color: #831711; /* color2 */
+      color: white;
+    }
+    .navbar-st:hover {
+      background-color: #104fa1;
+      color: #ffffff;
+    }
+    .navbar-st{
+      border-radius: 1em;
+    }
+
+    .btn-eliminar:hover {
+      background-color: #5a1f1b;
+      color: white;
+    }
+    /* Modal encabezado */
+    .modal-header {
+      background-color: #0c4185; /* color1 */
+      color: white;
+    }
+    .btn-close-white {
+      filter: invert(1);
+    }
