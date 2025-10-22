@@ -33,7 +33,7 @@
               </a>
               <ul class="dropdown-menu dropdown-menu-end shadow">
                 <li><a class="dropdown-item" href="#">Listado de Alumnos</a></li>
-                <li><a class="dropdown-item" href="#">Listado de Profesores</a></li>
+                <li><a class="dropdown-item" href="{% url 'docentes' %}">Listado de Profesores</a></li>
                 <li><a class="dropdown-item" href="#">Usuarios</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Guía del Sistema</a></li>
@@ -144,101 +144,6 @@
                 <td>YESSICA MILENA MENZA CALAMBAS</td>
                 <td>5</td>
                 <td>Estructuras</td>
-                <td>
-                  <div class="btn-group">
-                    <button class="btn btn-ver btn-sm verBtn">VER</button>
-                    <button class="btn btn-modificar btn-sm" style="background-color: #0c4185; color: #fff;" data-bs-toggle="modal" data-bs-target="#editModal">MODIFICAR</button>
-                    <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">ELIMINAR</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>30/01/2024</td>
-                <td>2</td>
-                <td>Ingeniería Civil</td>
-                <td>MICHELL TATIANA PEÑA JIMENEZ</td>
-                <td>Investigación</td>
-                <td>LINEAMINETOS PARA LA ESTABILIZACION QUIMICA DE SUELOS APLICADO A SUELOS PROCEDENTES DE CENIZA VOLCANICA ESTABILIZADA CON CAL</td>
-                <td>LUCIO GERARDO CRUZ VELASCO</td>
-                <td>6</td>
-                <td>Geotecnia</td>
-                <td>
-                  <div class="btn-group">
-                    <button class="btn btn-ver btn-sm verBtn">VER</button>
-                    <button class="btn btn-modificar btn-sm" style="background-color: #0c4185; color: #fff;" data-bs-toggle="modal" data-bs-target="#editModal">MODIFICAR</button>
-                    <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">ELIMINAR</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>14/02/2024</td>
-                <td>4</td>
-                <td>Ingeniería Civil</td>
-                <td>PAULA ANDREA GIRALDO RODRIGUEZ</td>
-                <td>Investigación</td>
-                <td>DESEMPEÑO ESTRUCTURAL, IMPACTO AMBIENTAL Y VIABILIDAD ECONOMICA DE MEZCLAS ASFALTICAS NATURALES DEL YACIMIENTO VERDEYACO(SANTA ROSA-CAUCA) PARA EL MEJORAMIENTO DE VIAS TERCIARIAS</td>
-                <td>Ferney Quiñones Sinistierra</td>
-                <td>13</td>
-                <td>Geotecnia</td>
-                <td>
-                  <div class="btn-group">
-                    <button class="btn btn-ver btn-sm verBtn">VER</button>
-                    <button class="btn btn-modificar btn-sm" style="background-color: #0c4185; color: #fff;" data-bs-toggle="modal" data-bs-target="#editModal">MODIFICAR</button>
-                    <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">ELIMINAR</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>8</td>
-                <td>14/02/2024</td>
-                <td>4</td>
-                <td>Ingeniería Civil</td>
-                <td>JUAN SEBASTIAN RIVERA LOPEZ</td>
-                <td>Pasantía</td>
-                <td>AUXILIAR DE INGENIERIA EN CONSULTORIAS PARA DISEÑO ESTRUCTURAL Y PRESUPUESTO</td>
-                <td>HERNAN NOPE RODRIGUEZ</td>
-                <td>14</td>
-                <td>Vías y Transporte</td>
-                <td>
-                  <div class="btn-group">
-                    <button class="btn btn-ver btn-sm verBtn">VER</button>
-                    <button class="btn btn-modificar btn-sm" style="background-color: #0c4185; color: #fff;" data-bs-toggle="modal" data-bs-target="#editModal">MODIFICAR</button>
-                    <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">ELIMINAR</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>9</td>
-                <td>14/02/2024</td>
-                <td>4</td>
-                <td>Ingeniería Ambiental</td>
-                <td>LAURA FERNANDA CAICEDO CEBALLOS Y SANTIAGO CAMILO VALLEJO BENAVIDES</td>
-                <td>Investigación</td>
-                <td>EVALUACION DE LA REMOCION DE CONTAMINANTES EN EL TRATRAMIENTO DE LIXIVIADOS UTILIZANDO HUMEDALES CONSTRUIDOS DE FLUJO VERTICAL NO SATURADOS EN EL PARQUE ECOLOGICO Y TECNOLOGICO LOS PICACHOS</td>
-                <td>YINA FERNANDA JIMENEZ CERON</td>
-                <td>15</td>
-                <td>Ingeniería Ambiental</td>
-                <td>
-                  <div class="btn-group">
-                    <button class="btn btn-ver btn-sm verBtn">VER</button>
-                    <button class="btn btn-modificar btn-sm" style="background-color: #0c4185; color: #fff;" data-bs-toggle="modal" data-bs-target="#editModal">MODIFICAR</button>
-                    <button class="btn btn-eliminar btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">ELIMINAR</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>10</td>
-                <td>14/02/2024</td>
-                <td>4</td>
-                <td>Ingeniería Ambiental</td>
-                <td>ANDRES FELIPE ARAUJO MONTILLA Y CRISTHIAN DAVID ZEMANATE ZUÑIGA</td>
-                <td>Investigación</td>
-                <td>EVALUACION DE LA CALIDAD DEL AGUA DE LAS FUENTES HIDRICAS REPORTADAS POR LAS CORPORACIONES AUTONOMAS REGIONALES EN LAS ZONAS ANDINA Y PACIFICA DE COLOMBIA</td>
-                <td>LADY SUSANA MONTENEGRO ARBOLEDA</td>
-                <td>16</td>
-                <td>Ingeniería Ambiental</td>
                 <td>
                   <div class="btn-group">
                     <button class="btn btn-ver btn-sm verBtn">VER</button>
@@ -453,36 +358,7 @@
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
 
-  <script>
-    $(document).ready(function () {
-      // Inicializar DataTable
-      let tabla = $('#datatable').DataTable({
-        language: {
-          url: "https://cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json"
-        },
-        columnDefs: [
-          { targets: -1, orderable: false }
-        ],
-        paging: true,
-        searching: true
-      });
-
-      // Evento para abrir modal VER
-      $('#datatable tbody').on('click', '.verBtn', function () {
-        let data = tabla.row($(this).parents('tr')).data();
-        let headers = ["No", "Fecha", "Sesión", "Programa", "Estudiante", "Modalidad", "Asunto", "Director", "Resolución", "Profesor"];
-        
-        let contenido = "";
-        headers.forEach((h, i) => {
-          contenido += `<tr><th>${h}</th><td>${data[i]}</td></tr>`;
-        });
-        $("#detalleContenido").html(contenido);
-        $("#detalleModal").modal("show");
-      });
-
-    });
-
-  </script>
+ <script src="../static/js/home.js"></script>
 
 </body>
 </html>
